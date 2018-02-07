@@ -15,3 +15,13 @@ print (13 + 16.5);
 
 #The below code prints after performing some mathematics with decimal values (or floating point values)
 print (12.5 + 17.5);
+
+#
+print ("Hello");
+print ("World");
+
+print ("Hello", end='');
+print (" World");
+
+print ("Python", "Programming");
+print ("End Of Program");
