@@ -60,8 +60,30 @@ string_match = "SAME FRUITS" if fruit_1 == fruit_2 else "NOT SAME FRUITS"
 #Printing the result
 print (string_match)
 
+#Just another example
+#We can chain ternary operations one after another 
+
+marks = 77
+
+grade = "A" if marks >= 80 else "B" if marks >= 70 and marks < 80 else "C" if marks >= 60 and marks < 70 \
+else "D" if marks >= 50 and marks < 60 else "E"
+
+print(grade)
+
 #If lines inside a function is just one line, it can be placed after the COLON itself
 if fruit_1 != "apple": print ("Mango not found")
 else: print ("appple found")
+
+#Just another example
+
+marks = 77
+
+if marks >= 80: grade = "A" 
+elif marks >= 70 and marks < 80: grade = "B"
+elif marks >= 60 and marks < 70: grade = "C"
+elif marks >= 50 and marks < 60: grade = "D"
+else: grade = "E"
+
+print(grade)
 
 print ("End Of Program")
