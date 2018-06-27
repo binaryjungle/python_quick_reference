@@ -1,2 +1,4 @@
 .*project
 [a-zA-Z]*.py
+[a-zA-Z]*.py
+__*
